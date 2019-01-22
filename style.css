@@ -1,22 +1,31 @@
 * {
-   /* margin: 0;
-   padding: 0; */
+   box-sizing: border-box;
+   /* padding: 0; */
 }
 body {
    background: url(bg.jpg) center no-repeat;
    background-attachment: fixed;
+   font-size: 22px;
+   line-height: 34px;
 }
-header {
+.header {
    background-color: #C44ADC;
-   color: white;
-   opacity: .8;
+   color: #fff;
+   opacity: .9;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 30px 20px;
+}
+h1 {
+   /* padding-top: 0; */
 }
 h1, h2 {
-   font-family: Arial, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
 }
-p {
-  font-size: 22px;
-  line-height: 34px;
+.header__block {
+   margin-top: -25px;
+}
+main {
+   padding: 30px;
 }
 main p {
    color: aqua;
