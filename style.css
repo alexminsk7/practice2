@@ -1,0 +1,26 @@
+* {
+   /* margin: 0;
+   padding: 0; */
+}
+body {
+   background: url(bg.jpg) center no-repeat;
+   background-attachment: fixed;
+}
+header {
+   background-color: #C44ADC;
+   color: white;
+   opacity: .8;
+}
+h1, h2 {
+   font-family: Arial, sans-serif;
+}
+p {
+  font-size: 22px;
+  line-height: 34px;
+}
+main p {
+   color: aqua;
+}
+li {
+   color: red;
+}
