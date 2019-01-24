@@ -15,19 +15,26 @@ body {
    font-family: Arial, Helvetica, sans-serif;
    padding: 30px 20px;
 }
+.header__subtitle {
+   color: aqua;
+   margin-top: 0 !important;
+}
 h1 {
-   /* padding-top: 0; */
+   margin-bottom: 0 !important;
 }
 h1, h2 {
    font-family: Arial, Helvetica, sans-serif;
 }
-.header__block {
-   margin-top: -25px;
+h2 {
+   color: #fff;
 }
-main {
+.first, .second {
    padding: 30px;
 }
-main p {
+.second {
+   padding-top: 0;
+}
+p {
    color: aqua;
 }
 li {
